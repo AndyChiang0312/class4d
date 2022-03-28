@@ -1,0 +1,187 @@
+html {
+    margin-top:-16px;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+/* -------------------------------------Navbar----------------------------------------- */
+
+.navbar {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    user-select: none;
+    position: sticky;
+}
+
+.navbar p {
+    color: rgb(192, 192, 192);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar p:hover {
+    color: white;
+}
+
+.navbarcontent p{
+    display: inline-block;
+}
+
+/* -------------------------------------Section1----------------------------------------- */
+
+.section1 {
+    text-align: center;
+    background-image: url('media/MacWallpapers/VRG_Birchler_Catalina.0.jpg');
+    background-position: center;
+    height: 26vw;
+}
+
+/* .section1::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.section1 .wrapper1 {
+    margin: 0;
+    height: 26vw;
+    width: 50%;
+    float: left;
+    display: table;
+}
+
+.section1 .wrapper1 .text {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.section1 h1 {
+    font-size: 3vw;
+    color: rgb(255 255 255);
+}
+
+.section1 h3 {
+    color: rgb(100, 237, 255);
+    font-size: 1vw;
+}
+
+.section1 .image {
+    height: 26vw;
+    width: 50%;
+    float: right;
+}
+
+.section1 img {
+    height: 26vw;
+}
+/* -------------------------------------Section2----------------------------------------- */
+
+.section2 {
+    text-align: center;
+    background-image: url('media/MacWallpapers/004.jpg');
+    background-position: center;
+    height: 26vw;
+}
+
+.section2 .wrapper1 {
+    margin: 0;
+    height: 26vw;
+    width: 50%;
+    float: right;
+    display: table;
+}
+
+.section2 .wrapper1 .text {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.section2 h1 {
+    font-size: 3vw;
+    color: rgb(255 255 255);
+}
+
+.section2 h3 {
+    color: rgb(100, 237, 255);
+    font-size: 1vw;
+}
+
+.section2 .image {
+    height: 26vw;
+    width: 50%;
+    float: left;
+}
+
+
+.section2 img {
+    margin-top: 3vw;
+    height: 20vw;
+}
+
+/* -------------------------------------Footer----------------------------------------- */
+
+.footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.footer .wrapper {
+    height: 200px;
+    display: table;
+}
+
+.footer h1 {
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    left: 50%;
+}
+
+
+
+
+/* .region1 {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    background-image: url("media/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg");
+    height: 704px;
+}
+
+.main h1 {
+    margin: 0px;
+}
+
+.welcome {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.loginbox {
+    text-align: center;
+    width: 50%;
+    float: right;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.loginbox input {
+    margin: 20px;
+}
+
+.loginbox h1 {
+    margin: 20px;
+} */

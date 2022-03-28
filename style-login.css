@@ -1,0 +1,64 @@
+body {
+    background-image: url("media/MacWallpapers/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -8px;
+    margin-top: -8px;
+    user-select: none;
+}
+
+html, body {
+    height: 100%;
+}
+.main {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    margin: 0;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.login {
+    background: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 30vw;
+    min-width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.inner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
